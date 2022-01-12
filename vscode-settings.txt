@@ -1,0 +1,12 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Monokai-Midnight",
+    "json.schemas": [
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay"
+}

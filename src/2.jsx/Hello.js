@@ -7,6 +7,14 @@ const Hello =() =>{
     //     </div>
     // )
 
+    function Hello(){
+
+    }
+
+    var Hello = function(){
+
+    }
+
     return React.createElement(
                 'div', 
                  {id:'divParent', className: 'container'}, 

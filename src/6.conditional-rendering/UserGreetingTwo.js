@@ -6,7 +6,8 @@ export class UserGreetingTwo extends Component {
         super()
     
         this.state = {
-            isLoggedIn : true 
+            isLoggedIn : true ,
+            names: []
         }
     }
     

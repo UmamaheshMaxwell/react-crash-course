@@ -21,12 +21,34 @@ import NameList from './7.list-rendering/NameList';
 import NameListOne from './7.list-rendering/NameListOne';
 import NameListThree from './7.list-rendering/NameListThree';
 import NameListTwo from './7.list-rendering/NameListTwo';
+import InlineStyling from './8.styling/InlineStyling';
+import Stylesheet from './8.styling/Stylesheet';
+import './8.styling/appStyles.css'
+import styles from './8.styling/appStyles.module.css'
+import Form from './9.form-handling/Form';
+import FormOne from './9.form-handling/FormOne';
+import LifeCycleA from './10.life-cycle/LifeCycleA';
+import Api from './11.api-calls/Api';
+import UserApi from './11.api-calls/UserApi';
+import Axios from './11.api-calls/Axios';
+import Student from './11.api-calls/node-api/Student';
 
 
 function App() {
   return (
     <div className="container">
-      <NameListThree />
+      <Student />
+      {/* <Axios /> */}
+      {/* <UserApi /> */}
+      {/* <Api /> */}
+      {/* <LifeCycleA /> */}
+      {/* <FormOne /> */}
+      {/* <Form /> */}
+      {/* <h2 className='error'>Apply CSS using regular CSS Files</h2>
+      <h2 className={styles.success}>Apply CSS using modules</h2> */}
+      {/* <InlineStyling /> */}
+      {/* <Stylesheet primary={true}/> */}
+      {/* <NameListThree /> */}
       {/* <NameListTwo /> */}
       {/* <NameListOne /> */}
       {/* <NameList /> */}

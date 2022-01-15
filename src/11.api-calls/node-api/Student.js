@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import CONFIG from "../../config.json"
+import UserApi from '../UserApi'
 
 export class Student extends Component {
     constructor() {
@@ -98,6 +99,7 @@ export class Student extends Component {
     
     render() {
         return (
+            <React.Fragment>
             <div className='container'>
                 <h1>Student Details</h1>
                 <table className="table">
@@ -159,6 +161,8 @@ export class Student extends Component {
                     </tbody>
                 </table>
             </div>
+            {/* <UserApi /> */}
+        </React.Fragment>
         )
     }
 }

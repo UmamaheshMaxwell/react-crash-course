@@ -32,14 +32,26 @@ import Api from './11.api-calls/Api';
 import UserApi from './11.api-calls/UserApi';
 import Axios from './11.api-calls/Axios';
 import Student from './11.api-calls/node-api/Student';
+import ClickCounter from './12.higher-order-components/ClickCounter';
+import HoverCounter from './12.higher-order-components/HoverCounter';
+import InputCounter from './12.higher-order-components/InputCounter';
+import Routing from './13.routing/Routing';
 
 
 function App() {
   return (
-    <div className="container">
-      <Student />
+    <div >
+      {/* <Routing /> */}
+      {/* <ClickCounter />
+      <br />
+      <HoverCounter />
+      <br />
+      <InputCounter /> */}
+
+      {/* <Student />
+      <UserApi /> */}
       {/* <Axios /> */}
-      {/* <UserApi /> */}
+     
       {/* <Api /> */}
       {/* <LifeCycleA /> */}
       {/* <FormOne /> */}

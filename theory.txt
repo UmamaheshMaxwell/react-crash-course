@@ -221,3 +221,15 @@ Rules of the Hooks
    Means, Don't call hooks inside the loops, conditions or nested functions 
 
 -> Only Call hooks from React functions 
+
+Redux
+---------
+Redux will need three things
+
+Actions - Descibes type of action
+Reducers - implenets behaviour of the action
+         - take the current state and action and return new state
+         - never return undefined from reducers
+         - We always want our state to be defined 
+Store - brings actions and reducers together and changes the state of app 
+
